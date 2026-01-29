@@ -1,0 +1,115 @@
+/* Warm parchment/sepia paper texture */
+
+:root {
+  --paper-bg: #faf8f5;
+  --paper-bg-secondary: #f5f2ed;
+  --paper-text: #3d3532;
+  --paper-text-secondary: #6b5f58;
+  --paper-accent: #8b7355;
+  --paper-border: #e8e2d9;
+  --paper-code-bg: #f0ebe3;
+}
+
+:root:not([data-theme="dark"]) body {
+  background-color: var(--paper-bg);
+}
+
+:root:not([data-theme="dark"]) .main {
+  background-color: var(--paper-bg);
+}
+
+/* Light mode overrides */
+:root:not([data-theme="dark"]) {
+  --theme: var(--paper-bg);
+  --entry: var(--paper-bg-secondary);
+  --primary: var(--paper-text);
+  --secondary: var(--paper-text-secondary);
+  --tertiary: var(--paper-border);
+  --content: var(--paper-text);
+  --code-bg: var(--paper-code-bg);
+  --border: var(--paper-border);
+}
+
+/* Subtle texture overlay */
+:root:not([data-theme="dark"]) body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.4;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  z-index: -1;
+}
+
+/* Warm link colors */
+:root:not([data-theme="dark"]) a {
+  color: var(--paper-accent);
+}
+
+:root:not([data-theme="dark"]) a:hover {
+  color: #6b5344;
+}
+
+/* Code blocks with parchment feel */
+:root:not([data-theme="dark"]) .post-content pre {
+  background-color: var(--paper-code-bg);
+  border: 1px solid var(--paper-border);
+}
+
+/* Entry cards */
+:root:not([data-theme="dark"]) .post-entry {
+  background-color: var(--paper-bg-secondary);
+  border: 1px solid var(--paper-border);
+}
+
+/* Header styling */
+:root:not([data-theme="dark"]) .post-content h1,
+:root:not([data-theme="dark"]) .post-content h2,
+:root:not([data-theme="dark"]) .post-content h3 {
+  color: #2d2825;
+}
+
+/* Dark mode - darker outer background (midnight blue) */
+[data-theme="dark"] body {
+  background-color: #0d1117;
+}
+
+/* Dark mode texture - subtle grain on outer background */
+[data-theme="dark"] body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  opacity: 0.15;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
+  z-index: -1;
+}
+
+/* Consistent border radius */
+:root {
+  --content-radius: 20px;
+}
+
+/* Dark mode clean background for main content (midnight blue) */
+[data-theme="dark"] .main {
+  background-color: #161b26;
+  position: relative;
+  z-index: 1;
+  border-radius: var(--content-radius);
+}
+
+/* Light mode rounded corners for main content */
+:root:not([data-theme="dark"]) .main {
+  border-radius: var(--content-radius);
+}
+
+/* Match post entry cards to main content */
+.post-entry {
+  border-radius: var(--content-radius);
+}

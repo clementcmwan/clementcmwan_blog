@@ -1,0 +1,111 @@
+baseURL: "https://clementcmwan.github.io/"
+title: "Clement's Blog"
+languageCode: en-us
+pagination:
+  pagerSize: 10
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production
+  title: "Clement's Blog"
+  description: "Personal blog and notes"
+  author: "Clement Wan"
+
+  defaultTheme: auto
+  disableThemeToggle: false
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: false
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: true
+  tocopen: false
+
+  assets:
+    disableHLJS: true
+
+  label:
+    text: "Clement's Blog"
+    icon: ""
+    iconHeight: 35
+
+  homeInfoParams:
+    Title: "Hi there!"
+    Content: I'm Clement :) Welcome to the backyard of my brain. I write about things I find interesting, mostly about data science but sometimes other random off-topic material too.
+
+  socialIcons:
+    - name: github
+      url: "https://github.com/clementcmwan"
+    - name: linkedin
+      url: "https://www.linkedin.com/in/clement-wan"
+
+  footer:
+    text: "Inspired by Lilian Weng's [blog](https://lilianweng.github.io/)"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 10
+    - identifier: archive
+      name: Archive
+      url: /archives/
+      weight: 20
+    - identifier: search
+      name: Search
+      url: /search/
+      weight: 30
+    - identifier: tags
+      name: Tags
+      url: /tags/
+      weight: 40
+
+outputs:
+  home:
+    - HTML
+    - RSS
+    - JSON
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+  highlight:
+    noClasses: false
+    anchorLineNos: true
+    codeFences: true
+    guessSyntax: true
+    lineNos: true
+    style: monokai
