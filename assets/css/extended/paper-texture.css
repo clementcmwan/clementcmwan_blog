@@ -73,8 +73,17 @@
 }
 
 /* Dark mode - darker outer background (midnight blue) */
+[data-theme="dark"] {
+  --theme: #0d1117 !important;
+  --entry: #161b26 !important;
+}
+
 [data-theme="dark"] body {
-  background-color: #0d1117;
+  background-color: var(--theme) !important;
+}
+
+[data-theme="dark"] .home-info {
+  background-color: var(--entry) !important;
 }
 
 /* Dark mode texture - subtle grain on outer background */
@@ -89,6 +98,25 @@
   opacity: 0.15;
   background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 200 200' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noise'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.8' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noise)'/%3E%3C/svg%3E");
   z-index: -1;
+}
+
+/* Expandable research callout boxes */
+.post-content .research-callout {
+  border: 1px solid var(--border);
+  background: var(--code-bg);
+  border-radius: var(--radius);
+  padding: 0.4em 1em;
+  margin: 1em 0;
+}
+
+.post-content .research-callout summary {
+  cursor: pointer;
+  font-weight: bold;
+  padding: 0.4em 0;
+}
+
+[data-theme="dark"] .post-content .research-callout {
+  background: var(--entry);
 }
 
 /* Consistent border radius */
