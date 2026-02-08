@@ -64,7 +64,7 @@ So the next time you're deep in a scroll hole, remember: the rat can't choose to
 ---
 
 <details class="research-callout">
-<summary>Research Notes for the Nerds</summary>
+<summary>Research Notes for the Curious</summary>
 
 *The following are detailed notes from Huberman's podcasts and research sources. These inform the post above but are kept here for reference.*
 
