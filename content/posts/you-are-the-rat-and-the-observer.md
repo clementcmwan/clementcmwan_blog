@@ -1,7 +1,7 @@
 ---
 title: "You Are the Rat and the Observer"
 date: 2025-01-29
-draft: true
+draft: false
 tags: ["neuroscience", "dopamine", "behavior"]
 summary: "Exploring how dopamine shapes our behavior and what we can learn from being both the subject and the scientist."
 ---
