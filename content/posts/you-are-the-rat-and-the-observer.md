@@ -251,15 +251,14 @@ Cold exposure has been shown to increase circulating catecholamines (dopamine an
 - Fiorillo et al. (2003). *Cited in sections: 10.*
 - Grace (1991). *Cited in sections: 1, 2.*
 - Hyman et al. (2006). *Cited in sections: 9.*
-- Koob & Le Moal (2008). *Cited in sections: TODO.*
 - Koob & Volkow (2016). *Cited in sections: 6, 7.*
 - Lepper, Greene & Nisbett (1973). *Cited in sections: 11.*
 - Meck (1996). *Cited in sections: 1, 13.*
 - Obeso et al. (2008). *Cited in sections: 3.*
-- Robinson & Berridge (1993). *Cited in sections: 3, TODO.*
+- Robinson & Berridge (1993). *Cited in sections: 3.*
 - Schultz (1997). *Cited in sections: 1.*
 - Skinner (1957). *Cited in sections: 10.*
-- Solomon & Corbit (1974). *Cited in sections: 8, TODO.*
+- Solomon & Corbit (1974). *Cited in sections: 8.*
 - Srámek et al. (2000). *Cited in sections: 15.*
 - Stuber et al. (2010). *Cited in sections: 5.*
 - Volkow et al. (2017). *Cited in sections: 9.*
