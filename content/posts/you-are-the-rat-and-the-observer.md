@@ -1,6 +1,6 @@
 ---
 title: "You Are the Rat and the Observer"
-date: 2025-01-29
+date: 2025-02-08
 draft: false
 tags: ["neuroscience", "dopamine", "behavior"]
 summary: "Exploring how dopamine shapes our behavior and what we can learn from being both the subject and the scientist."
@@ -240,7 +240,9 @@ Caffeine doesn't directly "upregulate" D2/D3 receptors. Instead, it blocks adeno
 
 Cold exposure has been shown to increase circulating catecholamines (dopamine and norepinephrine) by 250-530% in plasma (Srámek et al., 2000). However, this measures peripheral levels, not brain dopamine directly. Additionally, habituation occurs — repeated exposure diminishes the effect as the body adapts.
 
-### References
+</details>
+
+## References
 
 - Agnati et al. (1995). *Cited in sections: 2.*
 - Bhatt & Bhatti (2018). *Cited in sections: 6.*
@@ -262,5 +264,3 @@ Cold exposure has been shown to increase circulating catecholamines (dopamine an
 - Stuber et al. (2010). *Cited in sections: 5.*
 - Volkow et al. (2017). *Cited in sections: 9.*
 - Wise (2004). *Cited in sections: 1.*
-
-</details>
