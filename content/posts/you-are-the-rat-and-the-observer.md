@@ -26,7 +26,7 @@ Your dopamine system operates on two channels. There's the background hum -- you
 
 Both popular psychology and neuroscience research converge on the same conclusion: chasing these spikes produces diminishing returns, and the brain's natural counteraction -- its push back toward equilibrium -- leaves you feeling emptier than when you started.
 
-There's a physical dimension to this too. Your neurons store dopamine in tiny vesicle pools -- think of them as reservoirs. Each cheap thrill draws from the readily available pool. Binge enough, and that reservoir runs dry. It takes time to replenish, and until it does, everything feels duller (Bhatt & Bhatti, 2018). That's the bottom of the Dopamine Hole.
+There's a physical dimension to this too. Your neurons store dopamine in tiny vesicle pools -- think of them as reservoirs. Each cheap thrill draws from the readily available pool. Binge enough, and that reservoir runs dry. It takes time to replenish, and until it does, everything feels duller (Covey, Juliano & Garris, 2013). That's the bottom of the Dopamine Hole.
 
 ## Climbing Out
 
@@ -156,7 +156,7 @@ Dopamine must be synthesized and packaged into vesicles before release. There ar
 - **Readily releasable pool**: Available for immediate release
 - **Reserve pool**: Requires mobilization
 
-Repeated high-intensity stimulation can temporarily exhaust the readily releasable pool, requiring time to replenish — this may underlie the anhedonia following binge behaviors (Bhatt & Bhatti, 2018). Note: true "depletion" is overstated in pop-science; healthy brains replenish dopamine, though chronic stimulation can dysregulate the system (Koob & Volkow, 2016).
+Repeated high-intensity stimulation can temporarily exhaust the readily releasable pool, requiring time to replenish — this may underlie the anhedonia following binge behaviors (Covey, Juliano & Garris, 2013). Note: true "depletion" is overstated in pop-science; healthy brains replenish dopamine, though chronic stimulation can dysregulate the system (Koob & Volkow, 2016).
 
 ---
 
@@ -245,7 +245,7 @@ Cold exposure has been shown to increase circulating catecholamines (dopamine an
 ## References
 
 - Agnati et al. (1995)
-- Bhatt & Bhatti (2018)
+- Covey, Juliano & Garris (2013)
 - Dweck (2006)
 - Ferré (2008)
 - Fiorillo et al. (2003)
